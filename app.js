@@ -31,10 +31,10 @@ app.use(session({
 
 // Create a MySQL connection using environment variables
 const db = mysql.createConnection({
-    host: 'junction.proxy.rlwy.net',
+    host: 'autorack.proxy.rlwy.net',
     user: 'root',
-    password: 'WpdpvMdmHMNRJMZxAuFyniZBwdNYaJmC',
-    port: 54417,
+    password: 'eZvVCPZEyzaNAZswCtXbMjVrwmhfbTJD',
+    port: 12161,
     database: 'railway'
   });
   
